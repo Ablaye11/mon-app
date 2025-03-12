@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 // Route principale
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Bienvenue sur Mon Application' });
+    res.render('index', { title: 'Bienvenue sur Notre Application' });
 });
 
 // Démarrer le serveur
